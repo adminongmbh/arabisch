@@ -1,0 +1,66 @@
+body {
+  font-family: 'Scheherazade', serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f7f0e7;
+  color: #333;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #7d5a50;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+button {
+  font-size: 24px;
+  padding: 16px 32px;
+  background-color: #b68d4c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #a07a3e;
+}
+
+#arabischesWort {
+  border: 2px solid #7d5a50;
+  padding: 15px;
+  display: inline-block;
+  background-color: #f7f0e7;
+  border-radius: 5px;
+  font-size: 40px;
+}
+
+#arabischSingular {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#bild {
+  max-width: 600px;
+  height: auto;
+  margin: 30px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
